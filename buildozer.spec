@@ -6,7 +6,7 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = My ProtoOn
 
 # (str) Package name
 package.name = myapp
@@ -42,7 +42,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = kivy==master, https://github.com/kivymd/KivyMD/archive/master.zip
+requirements = python3==3.10.11, datetime, sqlite3, kivy==master, https://github.com/kivymd/KivyMD/archive/master.zip
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -76,6 +76,7 @@ orientation = portrait
 
 # Kivy version to use
 osx.kivy_version = 2.3.0
+osx.python_version = 3.10.11
 
 #
 # Android specific
